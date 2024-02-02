@@ -6,7 +6,7 @@ Weblog Title: Being Charity
 Weblog Description: Charities making sure that you will be better at being here.
 Author: George, Probably
 Canonical domain: being.charity
-Landing Page: work-in-progress
+Landing Page: home
 
 
 ;; General config stuff
