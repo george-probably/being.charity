@@ -163,7 +163,6 @@ nav ul {
 header, main, footer {
     max-width: 45em;
     margin: 1em auto;
-    padding: 0 1em;
 }
 
 footer {
@@ -268,9 +267,8 @@ hr {
 */
 .nav-box {
     background: var(--link);
-    width: 25em;
+    flex-grow: 1;
     margin: 1rem 0;
-
 }
 
 .box:not(:first-of-type) {
@@ -285,8 +283,6 @@ margin-top: 20px;
     align-self: auto;
     order: 0;
     height: fit-content;
-    margin: 10px;
-
 }
 
 .flex-column:nth-child(1) {
