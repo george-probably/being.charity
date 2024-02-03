@@ -53,8 +53,6 @@ Type: Template
 </div>
 
 </main>
-
-</main>
 <footer>
 <p>kindness binds us</p>
 </footer>
