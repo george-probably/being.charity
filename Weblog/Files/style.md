@@ -139,7 +139,7 @@ p, li {
 
 nav {
     font-family: 'VC Honey Deck';
-    line-height: 150%;
+    line-height: 100%;
     overflow: hidden;
     width: 100%;
 }
@@ -153,7 +153,6 @@ nav ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0;
-    margin: 5px 0px 5px 0px;
     align-content: center;
 }
 
@@ -187,6 +186,9 @@ footer p {
     font-size: 90%;
     text-align: center;
 }
+
+nav a:link{color:var(--background);}
+nav a:visited{color:var(--background);}
 
 a:link { color: var(--link); text-decoration: none; border-bottom: 1px dotted var(--link); }
 a:visited { color: var(--link); text-decoration: none; border-bottom: 1px dotted var(--link) }
