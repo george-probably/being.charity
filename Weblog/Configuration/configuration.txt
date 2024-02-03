@@ -12,7 +12,7 @@ Landing Page: home
 ;; General config stuff
 ;; --------------------
 Separator:  - 
-;; Navigation: about, setup, archive, <a href="https://youtube.com/@Snappy-Tech" target="_blank">YouTube</a>
+Navigation: home, <a href="https://youtube.com/@Snappy-Tech" target="_blank">YouTube</a>
 
 
 ;; Time stuff

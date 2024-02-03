@@ -69,6 +69,11 @@ body {
     background: var(--background);
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 img {
     width: 100%;
     transition-duration: 0.5s;
@@ -256,9 +261,8 @@ hr {
 }
 */
 .nav-box {
-    border-radius: 30px;
-    background: var(--articleBG);
-    border: 5px solid var(--articleBorder);
+    background: var(--link);
+    margin: 15px;
 }
 
 .box:not(:first-of-type) {
