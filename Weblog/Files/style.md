@@ -264,7 +264,6 @@ hr {
 */
 .nav-box {
     background: var(--link);
-    margin: 15px;
 }
 
 .box:not(:first-of-type) {
