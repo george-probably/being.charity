@@ -195,18 +195,18 @@ footer p {
     line-height: 150%;
 }
 
-weblog-title a:link{color:var(--link);text-decoration: none!important;}
-weblog-title a:link{color:var(--link);text-decoration: none!important;}
+.weblog-title a:link{color:var(--link);text-decoration: none!important;}
+.weblog-title a:link{color:var(--link);text-decoration: none!important;}
 
-nav a:link { color: var(--background); border-bottom: 1px dotted var(--background); }
-nav a:visited { color: var(--background); border-bottom: 1px dotted var(--background) }
-nav a:hover { color: var(--background); border-bottom: 1px solid var(--background) }
-nav a:active { color: var(--background); border-bottom: 1px solid var(--background) }
+nav a:link { color: var(--background);text-decoration: none!important; border-bottom: 1px dotted var(--background); }
+nav a:visited { color: var(--background);text-decoration: none!important; border-bottom: 1px dotted var(--background) }
+nav a:hover { color: var(--background);text-decoration: none!important; border-bottom: 1px solid var(--background) }
+nav a:active { color: var(--background);text-decoration: none!important; border-bottom: 1px solid var(--background) }
 
-a:link { color: var(--link); border-bottom: 1px dotted var(--link); }
-a:visited { color: var(--link); border-bottom: 1px dotted var(--link) }
-a:hover { color: var(--link); border-bottom: 1px solid var(--link) }
-a:active { color: var(--link); border-bottom: 1px solid var(--link) }
+a:link { color: var(--link);text-decoration: none!important; border-bottom: 1px dotted var(--link); }
+a:visited { color: var(--link);text-decoration: none!important; border-bottom: 1px dotted var(--link) }
+a:hover { color: var(--link);text-decoration: none!important; border-bottom: 1px solid var(--link) }
+a:active { color: var(--link);text-decoration: none!important; border-bottom: 1px solid var(--link) }
 
 .post-info, .post-tags {
     font-size: 85%;
