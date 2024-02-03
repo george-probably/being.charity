@@ -195,8 +195,8 @@ footer p {
     line-height: 150%;
 }
 
-.weblog-title a:link{color:var(--link);text-decoration: none!important;}
-.weblog-title a:link{color:var(--link);text-decoration: none!important;}
+.weblog-title a:link{color:var(--link);text-decoration: none!important;border-bottom:0px;}
+.weblog-title a:link{color:var(--link);text-decoration: none!important;border-bottom:0px;}
 
 nav a:link { color: var(--background);text-decoration: none!important; border-bottom: 1px dotted var(--background); }
 nav a:visited { color: var(--background);text-decoration: none!important; border-bottom: 1px dotted var(--background) }
