@@ -41,7 +41,7 @@ Type: Template
 
 <body>
 
-<header><h1 class="weblog-title"><a style="text-decoration:none; border-bottom:0px" href="{base-path}"><i class="fa-solid fa-heart"></i> {weblog-title}</a></h1></header>
+<header><h1 class="weblog-title"><a style="text-decoration:none; border-bottom:0px" href="{base-path}"><i class="fa-solid fa-heart"></i> {weblog-title}</a></h1><div class="nav-box"> {navigation} </div></header>
 
 <main>
 
