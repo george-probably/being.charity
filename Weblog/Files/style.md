@@ -188,6 +188,9 @@ footer p {
 
 .weblog-title{
     width:8em;
+    text-decoration: none;
+    border-bottom: 0px;
+    line-height: 150%;
 }
 
 nav a:link{color:var(--background);}
@@ -274,6 +277,7 @@ hr {
 .box:not(:first-of-type) {
 margin-top: 20px;
 }
+
 
 .flex-column{
     display: block;
