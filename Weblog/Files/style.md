@@ -187,6 +187,10 @@ footer p {
     text-align: center;
 }
 
+.weblog-title{
+    width:8em;
+}
+
 nav a:link{color:var(--background);}
 nav a:visited{color:var(--background);}
 
@@ -264,6 +268,9 @@ hr {
 */
 .nav-box {
     background: var(--link);
+    width: 25em;
+    margin: 1rem 0;
+
 }
 
 .box:not(:first-of-type) {
