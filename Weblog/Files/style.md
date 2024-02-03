@@ -67,6 +67,7 @@ body {
     font-size: 120%;
     color: var(--foreground);
     background: var(--background);
+    padding: 15px;
 }
 
 header {
