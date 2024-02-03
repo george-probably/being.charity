@@ -67,7 +67,7 @@ body {
     font-size: 120%;
     color: var(--foreground);
     background: var(--background);
-    padding: 15px;
+    padding: 0px 15px 0px 15px;
 }
 
 header {
@@ -195,13 +195,18 @@ footer p {
     line-height: 150%;
 }
 
-nav a:link{color:var(--background);}
-nav a:visited{color:var(--background);}
+weblog-title a:link{color:var(--link);text-decoration: none!important;}
+weblog-title a:link{color:var(--link);text-decoration: none!important;}
 
-a:link { color: var(--link); text-decoration: none; border-bottom: 1px dotted var(--link); }
-a:visited { color: var(--link); text-decoration: none; border-bottom: 1px dotted var(--link) }
-a:hover { color: var(--link); text-decoration: none; border-bottom: 1px solid var(--link) }
-a:active { color: var(--link); text-decoration: none; border-bottom: 1px solid var(--link) }
+nav a:link { color: var(--background); border-bottom: 1px dotted var(--background); }
+nav a:visited { color: var(--background); border-bottom: 1px dotted var(--background) }
+nav a:hover { color: var(--background); border-bottom: 1px solid var(--background) }
+nav a:active { color: var(--background); border-bottom: 1px solid var(--background) }
+
+a:link { color: var(--link); border-bottom: 1px dotted var(--link); }
+a:visited { color: var(--link); border-bottom: 1px dotted var(--link) }
+a:hover { color: var(--link); border-bottom: 1px solid var(--link) }
+a:active { color: var(--link); border-bottom: 1px solid var(--link) }
 
 .post-info, .post-tags {
     font-size: 85%;
